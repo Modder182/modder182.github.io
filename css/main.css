@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222222;
+}
+
+.navbar-brand img {width: 105px;}
+
+.navbar-nav li{
+	padding-right: 20px;
+}
+.nav-link {font-size: 1.1em !important}
+
+.mynav a:hover{
+	position: relative;
+	border-bottom: 2px solid #20BB9F;
+}
+
+.active a{
+	border-bottom: 2px solid #20BB9F;
+}
+
+/*--- Slider ---*/
+
+.carousel-inner{
+	height: 500px;
+}
+
+.carousel-inner img{
+	height: 100%;
+}
+
+@media(min-width: 1020px){
+	.carousel-inner img {
+		width: 100%;
+	}
+}
+  .carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-80%);
+}
+
+@media (max-width: 450px){
+	.carousel-caption .display-2 {
+		font-size: 3em;
+	}
+}
+
+@media (max-width: 320px){
+	.col-12 .display-4{
+		font-size: 2em;
+		text-align: center;
+	}
+	.carousel-caption .display-2 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+}
+
+@media (max-width: 375px){
+	.col-12 .display-4{
+		text-align: center;
+	}
+	.carousel-caption .display-2 {
+		font-size: 2.5em;
+		text-align: center;
+	}
+}
+
+.jumbotron{
+	padding: 1em;
+	border-radius: 0;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.padding{
+	padding-bottom: 2em;
+}
+
+.alert{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2em;
+}
+
+.alert hr{
+	border-top: 2px solid #f0f0f0;
+	width: 95%;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+}
+
+.fa-compass {color: #484848}
+.fa-map-marked-alt {color: #484848}
+.fa-archway {color: #484848}
+.fa-concierge-bell {color: #484848}
+.fa-hotel {color: #484848}
+.fa-bus-alt {color: #484848}
+
+.fa-compass, .fa-map-marked-alt, .fa-archway, .fa-concierge-bell, .fa-hotel, .fa-bus-alt {
+	font-size:  4em;
+	margin: 1em;
+}
+
+form {
+	background-color: #f9f9f9;
+	padding: 20px;
+	margin: 20px;
+}
